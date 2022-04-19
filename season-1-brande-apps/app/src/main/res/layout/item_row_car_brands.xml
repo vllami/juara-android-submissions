@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview_car_brands"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="18dp"
+    android:layout_marginBottom="18dp"
+    android:background="@color/white"
+    card_view:cardCornerRadius="7.5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_item_car_brand_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/item_image_brand_logo_description"
+            android:padding="10dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_mercedes_benz" />
+
+        <ImageView
+            android:id="@+id/image_item_car_brand_country"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/item_image_brand_country_description"
+            card_view:layout_constraintBottom_toBottomOf="@+id/text_item_text_brand_founded"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/text_item_car_brand_name"
+            tools:src="@drawable/ic_germany" />
+
+        <TextView
+            android:id="@+id/text_item_car_brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:includeFontPadding="false"
+            android:textColor="@color/gray"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toEndOf="@+id/image_item_car_brand_logo"
+            card_view:layout_constraintTop_toTopOf="@+id/image_item_car_brand_logo"
+            tools:text="Mercedes-Benz" />
+
+        <TextView
+            android:id="@+id/text_item_text_brand_founded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:includeFontPadding="false"
+            android:text="@string/item_text_founded"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/image_item_car_brand_logo"
+            card_view:layout_constraintStart_toStartOf="@+id/text_item_car_brand_name" />
+
+        <TextView
+            android:id="@+id/text_item_car_brand_founded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2.5dp"
+            android:includeFontPadding="false"
+            android:textSize="15sp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/text_item_text_brand_founded"
+            card_view:layout_constraintStart_toEndOf="@+id/text_item_text_brand_founded"
+            card_view:layout_constraintTop_toTopOf="@+id/text_item_text_brand_founded"
+            tools:text="1926" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

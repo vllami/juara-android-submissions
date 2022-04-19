@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Brande</string>
+
+    <string name="splashscreen_image_app_logo_description">App Logo</string>
+
+    <string name="item_text_founded">Berdiri pada tahun</string>
+    <string name="item_image_brand_logo_description">Brand Logos</string>
+    <string name="item_image_brand_country_description">Brand Country</string>
+
+    <integer-array name="car_brands_logo">
+        <item>@drawable/ic_mercedes_benz</item>
+        <item>@drawable/ic_tesla</item>
+        <item>@drawable/ic_suzuki</item>
+        <item>@drawable/ic_bmw</item>
+        <item>@drawable/ic_mitsubishi</item>
+        <item>@drawable/ic_ferrari</item>
+        <item>@drawable/ic_lamborghini</item>
+        <item>@drawable/ic_volkswagen</item>
+        <item>@drawable/ic_peugeot</item>
+        <item>@drawable/ic_porsche</item>
+    </integer-array>
+
+    <string-array name="car_brands_name">
+        <item>Mercedes-Benz</item>
+        <item>Tesla</item>
+        <item>Suzuki</item>
+        <item>BMW</item>
+        <item>Mitsubishi</item>
+        <item>Ferrari</item>
+        <item>Lamborghini</item>
+        <item>Volkswagen</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+    </string-array>
+
+    <string-array name="car_brands_founded">
+        <item>1926</item>
+        <item>2003</item>
+        <item>1909</item>
+        <item>1916</item>
+        <item>1870</item>
+        <item>1947</item>
+        <item>1963</item>
+        <item>1937</item>
+        <item>1896</item>
+        <item>1931</item>
+    </string-array>
+
+    <integer-array name="car_brands_country">
+        <item>@drawable/ic_germany</item>
+        <item>@drawable/ic_usa</item>
+        <item>@drawable/ic_japan</item>
+        <item>@drawable/ic_germany</item>
+        <item>@drawable/ic_japan</item>
+        <item>@drawable/ic_italy</item>
+        <item>@drawable/ic_italy</item>
+        <item>@drawable/ic_germany</item>
+        <item>@drawable/ic_uk</item>
+        <item>@drawable/ic_germany</item>
+    </integer-array>
+</resources>
