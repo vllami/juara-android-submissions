@@ -2,9 +2,9 @@
 Season 1 - __Brande__ - World Car Brand Viewer App
 
 ## License & Copyright
-```
 Licensed under the [MIT License](LICENSE).
 
+```
 Copyright (c) 2022 Villa Mukti Indriyanto
 
 Permission is hereby granted, free of charge, to any person obtaining
